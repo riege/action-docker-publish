@@ -1,5 +1,5 @@
-name: 'Build, Push and Release Docker Image'
-description: 'This action builds and pushes container images and creates a GitHub release if the workflow was triggered by a pushed tag starting with "v"'
+name: 'Build and Push Docker Image'
+description: 'This action builds and pushes container images'
 inputs:
   tags:
     description: 'Container Image Tags'
